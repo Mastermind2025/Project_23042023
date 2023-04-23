@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "Project_23042023",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/react-homework-template/",
+  "homepage": "https://goitacademy.github.io/Project_23042023/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
