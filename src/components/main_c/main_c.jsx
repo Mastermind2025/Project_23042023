@@ -4,7 +4,7 @@ import img02 from '../../assets/img/img02.png';
 import img03 from '../../assets/img/img03.png';
 
 const alt = 'calendar';
-
+let handle;
 export const Main = () => {
     return (
         <div className={styles.container}>
@@ -14,7 +14,13 @@ export const Main = () => {
                 <li className={styles.block}>
                     <div className={styles.block__text}>
                     <h2 className={styles.block__num}>1.</h2>
-                    <button className={styles.block__btn}>CALENDAR</button>
+                        <button
+                            className={styles.block__btn}
+                            type="button"
+                            onClick={handle}
+                        >
+                            CALENDAR
+                        </button>
                     <h3 className={styles.block__tl}>VIEW</h3>
 
                     <p className={styles.block__par}>
@@ -41,8 +47,9 @@ export const Main = () => {
                             you to manage your profile information and preferences,
                             while the calendar provides a quick and convenient way
                             to view your upcoming events and tasks.
-                        </p>
-                     </div>
+                    </p>
+                    
+                    </div>
                     
                     <img src={img02} alt={alt} className={styles.block_img}/>
                 </li>
@@ -50,7 +57,13 @@ export const Main = () => {
                 <li className={styles.block}>
                     <div className={styles.block__text}>
                     <h2 className={styles.block__num}>3.</h2>
-                    <button className={styles.block__btn}>ALL IN</button>
+                        <button
+                            type="button"
+                            onClick={handle}
+                            className={styles.block__btn}
+                        >
+                            ALL IN
+                        </button>
                     <h3 className={styles.block__tl}>ONE</h3>
 
                     <p className={styles.block__par}>

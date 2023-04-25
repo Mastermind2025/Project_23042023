@@ -1,6 +1,7 @@
 import styles from './header.module.css';
 import goose from '../../assets/img/GOOSE_2.png';
 
+let handleDel;
 
 export const Header = () => {
     return (
@@ -18,21 +19,32 @@ export const Header = () => {
 
                     
 
-                    <button className={styles.but_SignUp}>Sign up</button>
+                    <button
+                        type="button"
+                        className={styles.but_SignUp}
+                        onClick={handleDel}
+                    >
+                        Sign up
+                    </button>
                     
-                    <button className={styles.but_LogIn}>Log in</button>
+                    <button
+                        type="button"
+                        className={styles.but_LogIn}
+                        onClick={handleDel}
+                    >
+                        Log in
+                    </button>
 
-                    <button className={styles.but_SignUp02}>Sign up</button>
+                    <button
+                        type="button"
+                        className={styles.but_SignUp02}
+                        onClick={handleDel}
+                    >
+                        Sign up
+                    </button>
                     
                 </div>  
-                    
-               
-               
-               
             </div>
-
-         
-            
         </div>
     );
     
