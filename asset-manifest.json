@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Project_23042023/static/css/main.6847b6c8.css",
-    "main.js": "/Project_23042023/static/js/main.2580c444.js",
+    "main.css": "/Project_23042023/static/css/main.acb3fe96.css",
+    "main.js": "/Project_23042023/static/js/main.1dbc8f0d.js",
     "static/media/img01.png": "/Project_23042023/static/media/img01.db4579bf9ea1c0d671c1.png",
     "static/media/img02.png": "/Project_23042023/static/media/img02.e7e988fa4b5231798d44.png",
     "static/media/coolvetica_rg.otf": "/Project_23042023/static/media/coolvetica_rg.3d81d0e1fdbd5f69b232.otf",
     "static/media/img03.png": "/Project_23042023/static/media/img03.46e069d1f326211f57c5.png",
     "static/media/GOOSE_2.png": "/Project_23042023/static/media/GOOSE_2.136512524c6ce06f26b4.png",
     "index.html": "/Project_23042023/index.html",
-    "main.6847b6c8.css.map": "/Project_23042023/static/css/main.6847b6c8.css.map",
-    "main.2580c444.js.map": "/Project_23042023/static/js/main.2580c444.js.map"
+    "static/media/Icon_arr.svg": "/Project_23042023/static/media/Icon_arr.9ba064dbf7e09f1b0dff6759c107eda3.svg",
+    "main.acb3fe96.css.map": "/Project_23042023/static/css/main.acb3fe96.css.map",
+    "main.1dbc8f0d.js.map": "/Project_23042023/static/js/main.1dbc8f0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6847b6c8.css",
-    "static/js/main.2580c444.js"
+    "static/css/main.acb3fe96.css",
+    "static/js/main.1dbc8f0d.js"
   ]
 }
