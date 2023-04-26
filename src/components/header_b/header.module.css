@@ -30,6 +30,11 @@
     border: 2px dashed green;
 }
 
+.but_LogIn {
+    
+}
+
+
 @media screen and (min-width: 375px) {
     .box_btn{
         display: flex;
@@ -45,8 +50,10 @@
         border: 0;
         color: #fff;
 
+        font-size: 12px;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
+        line-height: 14px;
     }
 
     .box {
@@ -92,8 +99,20 @@
         color: #3E85F3;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+
+        position: relative;
             
         }
+
+                .svgIcon {
+                    
+                    position: absolute;
+                    top: 16px;
+                    right: 22px;
+                    z-index: 10;
+                }
     
         .but_SignUp {
         display: none;
@@ -126,8 +145,7 @@
     .box_btn {
             display: flex;
             flex-direction: row;
-           
-        }
+         }
 
     .box {
             margin: 0 auto;
@@ -148,6 +166,8 @@
         color: #3E85F3;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
         
     }
 
@@ -161,10 +181,14 @@
         border-radius: 15px;
         background-color: transparent;
         display: block;
+        text-decoration: underline;
 
+        
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .but_SignUp02{
@@ -218,9 +242,9 @@
        
     }
 
-         .block {
-             width: 48%;
-             min-height: 604px;
-            
-         }
+    .block {
+        width: 48%;
+        min-height: 604px;
+    
+    }
 }

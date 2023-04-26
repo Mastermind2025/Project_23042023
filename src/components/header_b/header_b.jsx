@@ -1,5 +1,6 @@
 import styles from './header.module.css';
 import goose from '../../assets/img/GOOSE_2.png';
+import svgIcon from 'assets/img/Icon_arr.svg';
 
 let handleDel;
 
@@ -32,6 +33,7 @@ export const Header = () => {
                         className={styles.but_LogIn}
                         onClick={handleDel}
                     >
+        <img className={styles.svgIcon} src={svgIcon} alt="Icon" />                
                         Log in
                     </button>
 
@@ -41,7 +43,10 @@ export const Header = () => {
                         onClick={handleDel}
                     >
                         Sign up
+ 
                     </button>
+
+                   
                     
                 </div>  
             </div>
